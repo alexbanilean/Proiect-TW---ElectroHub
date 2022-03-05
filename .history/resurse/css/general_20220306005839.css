@@ -208,7 +208,7 @@ main{
 #link-top:hover{
     opacity: 1;
     box-shadow: 0px 0px 15px inset rgb(116, 115, 115);
-    transition: 400ms linear;
+    transition: 500ms linear;
 }
 
 
