@@ -1,0 +1,8 @@
+#hamburger{
+    display: block;
+}
+
+ul.meniu{
+    display: none;
+    position: absolute;
+}

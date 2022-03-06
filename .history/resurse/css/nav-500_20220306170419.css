@@ -1,0 +1,13 @@
+#hamburger{
+    display: block;
+}
+
+ul.meniu{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+#ch-menu:checked+ul.meniu{
+    
+}

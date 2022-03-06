@@ -119,6 +119,6 @@ nav ul.meniu>li:hover>ul li a:hover::before{
 }
 
 @keyframes animatie_sageata_submeniu{
-    0%{transform: translateX(-2rem);}
+    0%{transform: translateX(-2rem)}
     100%{transform: translateX(0);}
 }

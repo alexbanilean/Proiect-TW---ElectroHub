@@ -1,0 +1,22 @@
+#hamburger{
+    display: block;
+}
+
+ul.meniu{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+#ch-menu:checked+ul.meniu{
+    display: block;
+    z-index: 2;
+    position: relative;
+    transform: top center;
+
+    animation-name: aparitie_meniu;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 500ms;
+}
+
