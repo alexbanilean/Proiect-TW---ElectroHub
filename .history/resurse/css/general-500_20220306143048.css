@@ -1,0 +1,29 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    --body-padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#grid-pagina{
+    display: block;
+}
+
+section{
+    margin-top: 1rem;
+}
+
+.taburi-iframe a{
+    text-decoration: none;
+    width: 75px;
+}
+
+#link-top{
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
