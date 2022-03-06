@@ -80,6 +80,10 @@ main{
     text-align: center;
 }
 
+figcaption{
+
+}
+
 #tabel{
     grid-area: zona-2;
 }

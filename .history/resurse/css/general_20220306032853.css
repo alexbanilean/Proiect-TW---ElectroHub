@@ -76,8 +76,12 @@ main{
 }
 
 #welcome figcaption{
-    width: 100%;
+    width: 75%;
     text-align: center;
+}
+
+figcaption{
+
 }
 
 #tabel{

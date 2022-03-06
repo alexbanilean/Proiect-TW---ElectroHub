@@ -69,17 +69,6 @@ main{
     grid-area: zona-1;
 }
 
-#welcome .imagine_client{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#welcome figcaption{
-    width: 100%;
-    text-align: center;
-}
-
 #tabel{
     grid-area: zona-2;
 }
@@ -110,40 +99,28 @@ main{
 
 .video-prezentari{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+    display: inline-block;
     min-width: 300px;
-    width: 75%;
 }
 
 #container-iframe{
-    box-sizing: border-box;
     display: flex;
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    width: 100%;
+    /* width: 100%; */
+    align-items: stretch;
+    justify-content: right;
+    border: none;
 }
 
 #container-iframe iframe{
     border: 4px solid green;
     padding: 0; 
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
 }
 
 .taburi-iframe{
     display: flex;
+    /* width: 100%; */
     flex-direction: row;
     justify-content: right;
-    align-items: center;
-    width: 100%;
-    
 }
 
 .taburi-iframe a{

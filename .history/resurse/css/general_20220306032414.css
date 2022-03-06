@@ -69,15 +69,20 @@ main{
     grid-area: zona-1;
 }
 
-#welcome .imagine_client{
-    width: 100%;
-    margin-left: auto;
+.imagine-client{
+    width: 75%;margin-left: auto;
     margin-right: auto;
 }
 
-#welcome figcaption{
-    width: 100%;
-    text-align: center;
+figure{
+    
+    display: inline-block;
+    
+
+}
+
+figcaption{
+
 }
 
 #tabel{
