@@ -13,7 +13,7 @@ nav{
     width: 100%;
     top: 0;
     padding: 0;
-    background-color: var(--button-color);
+    background-color: var();
     z-index: 10;
     position: sticky;
 }
@@ -33,13 +33,13 @@ nav ul, nav li{
 nav ul.meniu li{
     text-align: center;
     list-style-type: none;
-    background-color: var(--button-color);
+    background-color: rgb(126, 255, 126);
     cursor: pointer;
 }
 
 nav ul.meniu li, nav ul.meniu div, nav ul.meniu a{
     text-decoration: none;
-    color: var(--c2-text);
+    color: black;
     display: block;
     font-weight: bold;
 
@@ -49,7 +49,7 @@ nav ul.meniu li, nav ul.meniu div, nav ul.meniu a{
 }
 
 ul.meniu>li>div:hover, ul.meniu>li>a:hover{
-    box-shadow: 1px 1px 5px 1px inset var(--c2-text), -1px -1px 5px 1px inset var(--c2-text);
+    box-shadow: 1px 1px 5px 1px inset white, -1px -1px 5px 1px inset white;
 }
 
 ul.meniu a, ul.meniu div{

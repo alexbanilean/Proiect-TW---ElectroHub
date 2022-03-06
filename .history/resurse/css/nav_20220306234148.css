@@ -13,7 +13,7 @@ nav{
     width: 100%;
     top: 0;
     padding: 0;
-    background-color: var(--button-color);
+    background-color: var(--vivid-color);
     z-index: 10;
     position: sticky;
 }

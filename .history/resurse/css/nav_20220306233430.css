@@ -1,5 +1,18 @@
 body{
     --inaltime-meniu: 3rem;
+
+    --background-color:#77d477;
+    /* #50B350 */
+    --light-color:#BFFFBF;
+    --vivid-color:#73FF73;
+    --dark-color:#397F39;
+    --medium-color:#8FBF8F;
+
+    --button-color:#397F39;
+    /* #16366b */
+
+    --c1-text: black;
+    --c2-text: white;
 }
 
 nav ul.meniu ul{
@@ -13,7 +26,7 @@ nav{
     width: 100%;
     top: 0;
     padding: 0;
-    background-color: var(--button-color);
+    background-color: var(--vivid-color);
     z-index: 10;
     position: sticky;
 }
@@ -33,7 +46,7 @@ nav ul, nav li{
 nav ul.meniu li{
     text-align: center;
     list-style-type: none;
-    background-color: var(--button-color);
+    background-color: var();
     cursor: pointer;
 }
 
@@ -49,7 +62,7 @@ nav ul.meniu li, nav ul.meniu div, nav ul.meniu a{
 }
 
 ul.meniu>li>div:hover, ul.meniu>li>a:hover{
-    box-shadow: 1px 1px 5px 1px inset var(--c2-text), -1px -1px 5px 1px inset var(--c2-text);
+    box-shadow: 1px 1px 5px 1px inset white, -1px -1px 5px 1px inset white;
 }
 
 ul.meniu a, ul.meniu div{

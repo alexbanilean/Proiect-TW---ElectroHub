@@ -229,7 +229,7 @@ footer>address .mesaj::before{
 #container-iframe iframe{
     box-sizing: border-box;
     position: absolute;
-    border: 4px solid var(--main-color);
+    border: 4px solid green;
     padding: 0; 
     top: 0;
     left: 0;
@@ -251,12 +251,13 @@ footer>address .mesaj::before{
     width: 120px;
     
     display: inline-block;
-    border: 2px solid var(--main-color); 
-    border-top: 4px solid var(--main-color);
+    border: 2px solid green; 
+    border-top: 4px solid green;
+
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: rgb(175, 230, 175);
-    color: var(--c1-text);
+    color: black;
 
     transition: all 300ms linear;
     text-align: center;
@@ -272,7 +273,7 @@ footer>address .mesaj::before{
 }
 
 .taburi-iframe a:hover{
-    background-color: var(--light-color);
+    background-color: white;
     box-shadow: none;
 }
 

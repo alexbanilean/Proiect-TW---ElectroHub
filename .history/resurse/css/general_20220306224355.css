@@ -4,18 +4,9 @@ html{
 }
 
 body{
-    --main-color:#50B350;
-    /* #50B350 */
-    --light-color:#BFFFBF;
-    --vivid-color:#73FF73;
-    --dark-color:#397F39;
-    --medium-color:#8FBF8F;
+    
 
-    --button-color: var(--medium-color);
-    /* #16366b */
-
-    --c1-text: var(--dark-color);
-    --c2-text: white;
+    --c1-text: black;
 }
 
 body{
@@ -32,7 +23,7 @@ body{
     padding-left: var(--body-padding);
     padding-right: var(--body-padding);
 
-    background-color: var(--main-color);
+    background-color: rgb(65, 146, 65);
     background-attachment: fixed;
 
     min-width: 330px;
@@ -47,7 +38,7 @@ h1{
 main{
     --main-border: 1px solid grey;
     
-    background-color: white;
+    background-color: rgb(186, 228, 195);
     border-left: var(--main-border);
     border-right: var(--main-border);
     padding-bottom: 2rem;
@@ -120,15 +111,15 @@ main{
     grid-area: zona-8;
 }
 
-#orar a{
-    text-decoration: underline;
+#orar {
+    text-decoration: none;
     color: black;
 }
 
 /* Footer */
 
 footer{
-    background-color: var(--background-color);
+    background-color: rgb(65, 146, 65);
     color: white;
 }
 
@@ -136,20 +127,21 @@ footer>address{
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
-    gap: 0.25rem;
+    gap: 0.2rem;
 }
 
 footer>address a{
     display: flex;
     
     text-decoration: none;
-    background-color: var(--button-color);
+    background-color: rgb(186, 228, 195);
     color: white;
 
     justify-content: center;
     align-items: center;
 
-    border-radius: 1rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
 
     width: 25%;
     margin: 0;
@@ -229,7 +221,7 @@ footer>address .mesaj::before{
 #container-iframe iframe{
     box-sizing: border-box;
     position: absolute;
-    border: 4px solid var(--main-color);
+    border: 4px solid green;
     padding: 0; 
     top: 0;
     left: 0;
@@ -251,12 +243,13 @@ footer>address .mesaj::before{
     width: 120px;
     
     display: inline-block;
-    border: 2px solid var(--main-color); 
-    border-top: 4px solid var(--main-color);
+    border: 2px solid green; 
+    border-top: 4px solid green;
+
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: rgb(175, 230, 175);
-    color: var(--c1-text);
+    color: black;
 
     transition: all 300ms linear;
     text-align: center;
@@ -272,7 +265,7 @@ footer>address .mesaj::before{
 }
 
 .taburi-iframe a:hover{
-    background-color: var(--light-color);
+    background-color: white;
     box-shadow: none;
 }
 
@@ -284,7 +277,7 @@ footer>address .mesaj::before{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: var(--dark-color);
+    color: green;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -311,7 +304,7 @@ footer>address .mesaj::before{
     right: 1rem;
     width: 2.5rem;
     height: 2.3rem;
-    background-color: var(--c2-text);
+    background-color: white;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border: 1px solid grey;
@@ -331,7 +324,7 @@ footer>address .mesaj::before{
 
 #link-top>.tooltip{
     bottom: 1rem;
-    right: 1.2rem;
+    right: 1rem;
     width: 2.5rem;
     height: 2.3rem;
     position: fixed;
@@ -341,8 +334,8 @@ footer>address .mesaj::before{
     visibility: hidden;
     display: inline-block;
     width: 250px;
-    background-color: var(--medium-color);
-    color: var(--c2-text);
+    background-color: white;
+    color: black;
     text-align: center;
     border-radius: 10px;
     padding: 5px;

@@ -62,7 +62,7 @@ nav ul.meniu>li:hover>ul li a:hover::before{
 }
 
 ul.meniu>li :hover{
-    box-shadow: 1px 1px 5px 1px inset var(--c2-text), -1px -1px 5px 1px inset var(--c2-text);
+    box-shadow: 1px 1px 5px 1px inset var(--c2-text), -1px -1px 5px 1px inset white;
 }
 
 @keyframes aparitie_meniu{
