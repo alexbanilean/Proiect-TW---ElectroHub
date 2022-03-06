@@ -15,10 +15,6 @@ body{
     right: 1.8rem;
 }
 
-nav>ul.meniu>li>div.home-button>.text-home-button{
-    display: none;
-}
-
-nav>ul.meniu>li>div.home-button::before{
-    padding-right: 0;
+.home-button {
+    di
 }

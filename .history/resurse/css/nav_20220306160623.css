@@ -48,7 +48,7 @@ nav ul.meniu li, nav ul.meniu div, nav ul.meniu a{
 
 }
 
-ul.meniu>li>div:hover, ul.meniu>li>a:hover{
+ul.meniu>li>div:hover{
     box-shadow: 1px 1px 5px 1px inset white, -1px -1px 5px 1px inset white;
 }
 
@@ -91,6 +91,10 @@ nav ul.meniu>li:hover>ul li a:hover::before{
     font-family: "Font Awesome 5 Free";
     padding-right: 0.4rem;
     content:'\f015';
+}
+
+.home-button{
+    display: ;
 }
 
 #hamburger{

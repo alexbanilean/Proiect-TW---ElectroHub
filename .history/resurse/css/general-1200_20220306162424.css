@@ -19,6 +19,6 @@ nav>ul.meniu>li>div.home-button>.text-home-button{
     display: none;
 }
 
-nav>ul.meniu>li>div.home-button::before{
-    padding-right: 0;
+nav>ul.meniu>li>div.home-button>::before{
+    padd
 }
