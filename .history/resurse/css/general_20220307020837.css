@@ -263,7 +263,7 @@ footer>address .mesaj::before{
     vertical-align: top;
     padding: 5px;
     
-    box-shadow: 0px 0px 5px 2px inset rgb(98, 138, 98);
+    box-shadow: 0px 0px 7px 2px inset rgb(98, 138, 98);
 }
 
 .taburi-iframe a+a{
