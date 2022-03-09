@@ -1,0 +1,31 @@
+{
+  "name": "proiect-tw---electrohub",
+  "version": "1.0.0",
+  "description": "site electronice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbanilean/Proiect-TW---ElectroHub.git"
+  },
+  "keywords": [
+    "electronice",
+    "electrocasnice",
+    "telefoane",
+    "tablete",
+    "jocuri",
+    "televizoare"
+  ],
+  "author": "Alexandru Banilean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexbanilean/Proiect-TW---ElectroHub/issues"
+  },
+  "homepage": "https://github.com/alexbanilean/Proiect-TW---ElectroHub#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
