@@ -210,6 +210,12 @@ main{
     grid-area: zona-8;
 }
 
+#video_vtt::cue{
+    background-color: white;
+    opacity: 0.3;
+    color: black;
+}
+
 #orar a{
     text-decoration: underline;
     color: black;
