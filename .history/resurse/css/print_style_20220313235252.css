@@ -1,0 +1,108 @@
+#watermark, #banner{
+    display:none;
+}
+
+@media print {
+
+    html, body {
+        width: 210mm;
+        overflow:visible !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: auto;
+    }
+
+    #link-top, video, iframe, #prezentari, figure, table{
+        display: none;
+    }
+    
+	h1{
+		margin-top: 50%;
+		text-align:center;
+	}
+
+    nav{
+        list-style: none;
+        page-break-after: always;
+    }
+
+    nav a{
+        display: list-item;
+        list-style-type: decimal;
+    }
+
+	#banner{
+		position: absolute;
+		display: inline-block;
+        overflow: visible;
+        width:50%;
+
+        top: 0;
+		right: 0;	
+	}
+	#banner::after{
+		content:"Element poziționat absolut pe prima pagină.";
+        display: inline-block;
+		position: absolute;
+
+		font-size:10px;
+        border:5px double black;
+
+        padding: 5%;
+
+        top: 0;
+        right: 0;
+	}
+
+    #watermark{
+        display: flex;
+        position: fixed;
+        
+        justify-content: center;
+        
+        color: rgba(0,0,0,0.3);
+
+        width: 60%;
+        height: 10%;
+        left: 0;
+        top: 0;
+    }
+
+    #watermark::after{
+        content: "Banilean Alexandru";
+        display: block;
+        text-align: center;
+        
+        padding: 5%;
+        opacity: 0.3;
+        
+        color: rgba(0,0,0,0.3);
+
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+
+	footer{
+		page-break-before: always;
+	}
+}
+
+@page {
+    size: A4 portrait;
+    margin-bottom:2cm;
+    margin-top:2cm;
+    counter-increment: page;
+        
+}
+@page:left{
+
+    margin-left:2cm;
+    margin-right:1cm;
+}
+@page:right{
+
+    margin-right:2cm;
+    margin-left:1cm;
+}
