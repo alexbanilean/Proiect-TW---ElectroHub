@@ -49,7 +49,7 @@
 		right: 0;	
 	}
 	#banner::after{
-		content:"Acesta este un proiect școlar.";
+		content:"Acesta este un proiect .";
         display: inline-block;
 		position: absolute;
 

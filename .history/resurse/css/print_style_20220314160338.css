@@ -49,7 +49,7 @@
 		right: 0;	
 	}
 	#banner::after{
-		content:"Acesta este un proiect școlar.";
+		content:"Element poziționat absolut pe prima pagină.";
         display: inline-block;
 		position: absolute;
 
@@ -92,6 +92,10 @@
 	footer{
 		page-break-before: always;
 	}
+}
+
+@page:first{
+    
 }
 
 @page {
