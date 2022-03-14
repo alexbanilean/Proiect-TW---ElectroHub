@@ -1,0 +1,4 @@
+#galerie_statica{
+    display: grid;
+    grid-template-columns: repeat();
+}

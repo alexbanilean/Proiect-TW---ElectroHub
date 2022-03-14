@@ -1,0 +1,9 @@
+#galerie_statica{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: none;
+}
+
+#galerie_statica figure{
+    margin
+}
