@@ -1,0 +1,80 @@
+{
+    "cale_galerie":"resurse/imagini/galerie",
+	"imagini": [
+		{
+			"cale_imagine":"frigider.png",
+			"titlu":"Frigider",
+			"descriere":"Acesta este un frigider.",
+			"sfert_ora":"1",
+			"sursa": "<a href="http://www.freepik.com">Designed by macrovector / Freepik"
+		},
+		{
+			"fisier":"clatite.png",
+			"descriere":"Clătite cu dulceață",
+			"luni": ["mai", "iunie", "iulie", "martie"],
+
+			"cale_imagine":"",
+			"titlu":"",
+			"descriere":"",
+			"sfert_ora":"",
+			"sursa": ""
+		},
+		{
+			"fisier":"gogosi.png",
+			"descriere":"Gogoși glazurate",
+			"luni": ["mai", "iunie", "iulie", "martie"],
+
+			"cale_imagine":"",
+			"titlu":"",
+			"descriere":"",
+			"sfert_ora":"",
+			"sursa": ""
+		},
+		{
+			"fisier":"tort-scortisoara.png",
+			"descriere":"Tort cu scorțisoară",
+			"luni": ["mai", "iunie", "iulie", "martie"],
+
+			"cale_imagine":"",
+			"titlu":"",
+			"descriere":"",
+			"sfert_ora":"",
+			"sursa": ""
+		},
+		{
+			"fisier":"prajitura-ciocolata.png",
+			"descriere":"Prăjitură cu ciocolată",
+			"luni": ["mai", "iunie", "iulie", "martie"],
+
+			"cale_imagine":"",
+			"titlu":"",
+			"descriere":"",
+			"sfert_ora":"",
+			"sursa": ""
+		},
+		{
+			"fisier":"tarta-afine.png",
+			"descriere":"Tartă cu afine",
+			"luni": ["mai", "iunie", "iulie", "martie"],
+
+			"cale_imagine":"",
+			"titlu":"",
+			"descriere":"",
+			"sfert_ora":"",
+			"sursa": ""
+		},
+		{
+			"fisier":"tort-trandafiri.png",
+			"descriere":"Tort special",
+			"luni": ["mai", "iunie", "iulie", "martie"],
+
+			"cale_imagine":"",
+			"titlu":"",
+			"descriere":"",
+			"sfert_ora":"",
+			"sursa": ""
+		}
+
+		
+	]
+}

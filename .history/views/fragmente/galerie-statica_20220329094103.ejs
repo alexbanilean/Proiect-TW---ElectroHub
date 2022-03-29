@@ -1,0 +1,27 @@
+<section id="sectiune-galerie-statica">
+    <h2>Galerie statica</h2>
+    <div id="galerie_statica">
+        <%  
+            afisate = 0
+            for(let imag of locals.imagini){ 
+                // d = new Date()
+                // if(afisate < 10 && imag.sfert_ora == (d.getMinutes/15 + 1)){
+                %>    
+                    
+                        <a href="<%- imag.sursa%>"><figure>
+                            <picture>
+                                <source srcset="<%-imag.mic%>" media="(max-width:500px)"/>
+                                <!-- <source srcset="<%-imag.mediu%>" media="(max-width:1200px)"/> -->
+                                <img src="<%-imag.mediu%>" alt="<%-imag.mediu%>"/>
+                            </picture>
+                            <figcaption><%-imag.descriere%></figcaption>
+                        </figure>
+                        </a>
+                        <!-- </a>
+                        <!-- afisate += 1 -->
+                <%                  
+                // } 
+        }
+        %> 
+    </div>
+</section>

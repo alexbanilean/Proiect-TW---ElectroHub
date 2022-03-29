@@ -1,0 +1,97 @@
+{
+    "cale_galerie":"resurse/imagini/galerie",
+	"imagini": [
+		{
+			"cale_imagine":"frigider.png",
+			"titlu":"Frigider",
+			"descriere":"Acesta este un frigider.",
+			"sfert_ora":1,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"monitor.png",
+			"titlu":"Monitor",
+			"descriere":"Acesta este un monitor.",
+			"sfert_ora":2,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"aer-conditionat.png",
+			"titlu":"Aer conditionat",
+			"descriere":"Acesta este o unitate aer conditionat.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"aragaz.png",
+			"titlu":"Aragaz",
+			"descriere":"Acesta este un aragaz.",
+			"sfert_ora":4,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"cuptor-microunde.png",
+			"titlu":"Cuptor microunde",
+			"descriere":"Acesta este un cuptor cu microunde.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"aspirator.png",
+			"titlu":"Aspirator",
+			"descriere":"Acesta este un aspirator.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"cuptor-electric.png",
+			"titlu":"Cuptor electric",
+			"descriere":"Acesta este un cuptor electric.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"hota.png",
+			"titlu":"Hota",
+			"descriere":"Aceasta este o hota.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"fier-calcat.png",
+			"titlu":"Fier de calcat",
+			"descriere":"Acesta este un fier de calcat.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"masina-spalat.png",
+			"titlu":"Masina de spalat",
+			"descriere":"Aceasta este o masina de spalat.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"lampa.png",
+			"titlu":"Lampa",
+			"descriere":"Aceasta este o lampa.",
+			"sfert_ora":2,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"radiator.png",
+			"titlu":"Radiator",
+			"descriere":"Acesta este un radiator.",
+			"sfert_ora":3,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		},
+		{
+			"cale_imagine":"sistem-audio.png",
+			"titlu":"Sistem audio",
+			"descriere":"Acesta este un sistem audio.",
+			"sfert_ora":4,
+			"sursa": "http://www.freepik.com>Designed by macrovector / Freepik"
+		}
+		
+	]
+}
