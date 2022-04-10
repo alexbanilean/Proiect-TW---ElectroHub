@@ -7,7 +7,7 @@
 .galerie-a {
   width: 500px;
   height: 500px;
-  border: 4px inset black;
+  border: 4px inset purple;
   position: relative;
   overflow: hidden;
   margin-bottom: 5rem;
