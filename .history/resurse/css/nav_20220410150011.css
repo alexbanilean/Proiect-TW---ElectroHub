@@ -44,7 +44,7 @@ nav>ul.meniu>li>a{
 nav ul.meniu li, nav ul.meniu div, nav ul.meniu a{
     text-decoration: none;
     color: var(--c2-text);
-    display: block;
+    display: inline-block;
     font-weight: bold;
 
     height: var(--inaltime-meniu);
@@ -89,7 +89,7 @@ nav ul.meniu>li:hover>ul li a:hover::before{
     animation-timing-function: linear;
 }
 
-.home-button>a::before{
+.home-button::before{
     display: inline-block;
     font-family: "Font Awesome 6 Free";
     padding-right: 0.4rem;

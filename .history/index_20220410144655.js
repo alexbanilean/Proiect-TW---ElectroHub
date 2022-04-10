@@ -35,7 +35,7 @@ app.get(["/", "/index", "/home"], function(req, res){
         if(!err)
             res.render("pagini/index", {ip: req.ip, imagini: obImagini.imagini, produse: rezQuery.rows});
         else
-            console.log("eroare!");
+            console.log('')
     })
 })
 

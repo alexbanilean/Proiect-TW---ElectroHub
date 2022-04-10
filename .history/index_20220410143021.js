@@ -34,8 +34,6 @@ app.get(["/", "/index", "/home"], function(req, res){
         // console.log(rezQuery)
         if(!err)
             res.render("pagini/index", {ip: req.ip, imagini: obImagini.imagini, produse: rezQuery.rows});
-        else
-            console.log("eroare!");
     })
 })
 
@@ -72,10 +70,10 @@ app.get("*/galerie-animata.css", function(req,res){
     // var culoare_aleatoare = culori[Math.floor(Math.random() * culori.length)];
     var numar_imagini_aleator = 6 + Math.floor(Math.random() * 7);
     let nrimg = numar_imagini_aleator, id = 1;
-    const lista_imagini_galerie_animata = [];
+    var lista_imagini_galerie_animata = {};
     while(nrimg > 0){
         
-        if(id <= obImagini.imagini.length){
+        if(id <= obImagini.imagini.length()){
             lista_imagini_galerie_animata.push(obImagini.imagini[id - 1]);
         }
 
@@ -83,8 +81,7 @@ app.get("*/galerie-animata.css", function(req,res){
         nrimg = nrimg - 1;
     }
 
-    console.log(numar_imagini_aleator);
-    console.log(lista_imagini_galerie_animata);
+    consol
 
     rezScss = ejs.render(sirScss, {numar_imagini_aleator : numar_imagini_aleator, lista_imagini : lista_imagini_galerie_animata});
     // console.log(rezScss);

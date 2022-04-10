@@ -23,6 +23,6 @@ body{
     display: none;
 }
 
-.home-button>a::before{
-    padding-left: 0.4rem;
+.text-home-button::before{
+    padding-right: 0;
 }

@@ -23,6 +23,6 @@ body{
     display: none;
 }
 
-.home-button>a::before{
-    padding-left: 0.4rem;
+.texhome-button::before{
+    padding-right: 0;
 }

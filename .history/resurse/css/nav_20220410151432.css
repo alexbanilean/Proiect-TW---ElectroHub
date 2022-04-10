@@ -89,7 +89,7 @@ nav ul.meniu>li:hover>ul li a:hover::before{
     animation-timing-function: linear;
 }
 
-.home-button>a::before{
+.text-home-button::before{
     display: inline-block;
     font-family: "Font Awesome 6 Free";
     padding-right: 0.4rem;

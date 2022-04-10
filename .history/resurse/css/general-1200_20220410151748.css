@@ -19,10 +19,11 @@ body{
     right: 1.8rem;
 }
 
-.text-home-button{
+.home-button .text-home-button{
     display: none;
 }
 
-.home-button>a::before{
-    padding-left: 0.4rem;
+.text-home-button::before{
+    display: block;
+    padding-right: 0;
 }

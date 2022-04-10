@@ -72,7 +72,7 @@ app.get("*/galerie-animata.css", function(req,res){
     // var culoare_aleatoare = culori[Math.floor(Math.random() * culori.length)];
     var numar_imagini_aleator = 6 + Math.floor(Math.random() * 7);
     let nrimg = numar_imagini_aleator, id = 1;
-    const lista_imagini_galerie_animata = [];
+    const lista_imagini_galerie_animata = {};
     while(nrimg > 0){
         
         if(id <= obImagini.imagini.length){

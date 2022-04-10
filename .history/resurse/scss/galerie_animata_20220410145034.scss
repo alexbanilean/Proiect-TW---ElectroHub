@@ -1,0 +1,10 @@
+@use 'sass:list';
+@use 'sass:math';
+$lista_transformari: ((rotateZ(0deg),rotateZ(135deg)),(skew(0deg), skew(90deg)), (scaleX(1) rotateZ(0), scaleX(0) rotateZ(90deg)),(scaleY(1) rotateZ(0deg), scaleY(0) rotateZ(90deg)));
+
+
+
+@use '../resurse/scss/galerie_animata_frag' with (
+  $lista_imagini: <%- locals.lista_imagini %>,
+  $numar_imagini_aleator: <%- locals.numar_imagini_aleator %>
+);

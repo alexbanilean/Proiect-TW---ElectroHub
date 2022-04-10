@@ -24,5 +24,6 @@ body{
 }
 
 .home-button>a::before{
-    padding-left: 0.4rem;
+    padding-right: 0;
+    color: red;
 }
