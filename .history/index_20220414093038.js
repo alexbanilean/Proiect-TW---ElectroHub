@@ -25,9 +25,7 @@ var client = new Client({
     port: 5432,
     ssl: {
     	rejectUnauthorized: false
-  	}
-});
-
+  	}});
 client.connect();
 
 const obGlobal={obImagini:null, obErori:null};

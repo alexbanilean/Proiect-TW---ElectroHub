@@ -21,13 +21,7 @@ var client = new Client({
     user:"qshknnjtswnyih", 
     password: "24c3ed91e187ca8a36e82b84bbfe8fd3b45aea38d7b639987e50615580207d89", 
     database: "db0cf2v940gb07", 
-    host: "localhost", 
-    port: 5432,
-    ssl: {
-    	rejectUnauthorized: false
-  	}
-});
-
+    host: "localhost", port: 5432});
 client.connect();
 
 const obGlobal={obImagini:null, obErori:null};

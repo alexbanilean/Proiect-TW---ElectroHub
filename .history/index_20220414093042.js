@@ -27,7 +27,6 @@ var client = new Client({
     	rejectUnauthorized: false
   	}
 });
-
 client.connect();
 
 const obGlobal={obImagini:null, obErori:null};
