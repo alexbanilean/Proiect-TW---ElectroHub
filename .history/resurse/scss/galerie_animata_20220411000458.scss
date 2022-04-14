@@ -1,0 +1,5 @@
+for $i from 0 through local
+
+@use '../resurse/scss/_galerie_animata_frag' with (
+  $numar_imagini_aleator: <%- locals.numar_imagini_aleator %>
+);

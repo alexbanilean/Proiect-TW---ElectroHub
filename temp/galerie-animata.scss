@@ -1,4 +1,11 @@
-@use '../resurse/scss/galerie_animata_frag' with (
-  $lista_imagini: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],
-  $numar_imagini_aleator: 6
+@use '../resurse/scss/_galerie_animata_frag' with (
+  $numar_imagini_aleator: 7
 );
+
+$nrimag: 7;
+
+@for $i from 0 through $nrimag{
+    #galerie-animata figure:nth-of-type(#{$nrimag - $i}){
+      animation-delay: $i * 3s;
+    }
+}

@@ -1,0 +1,12 @@
+<svg width="500" height="500">
+  <defs>
+    <clipPath id="myClip">
+        <!-- <polyline id="line1" points="0,500 500,0"
+                    fill="black"/>
+        <polyline id="line2" points="0,500 500,0"
+                    fill="black"/> -->
+        polygon(100% 0, 0% 100%, 100% 100%);
+        
+    </clipPath>
+  </defs>
+</svg>

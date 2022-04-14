@@ -1,0 +1,11 @@
+$nrimag: <%- locals.numar_imagini_aleator %>;
+
+@for $i from 0 through $nrimag{
+    #galerie-animata figure:nth-of-type(#{$nrimag - $i}){
+      animation-delay: $i * 3s;
+    }
+}
+
+@use '../resurse/scss/_galerie_animata_frag' with (
+  $numar_imagini_aleator: <%- locals.numar_imagini_aleator %>
+);

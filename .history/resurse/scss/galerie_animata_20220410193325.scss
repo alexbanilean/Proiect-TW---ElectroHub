@@ -1,0 +1,6 @@
+@use 'sass:list';
+
+@use '../resurse/scss/galerie_animata_frag' with (
+  $lista_imagini: <%- locals.lista_imagini %>,
+  $numar_imagini_aleator: <%- locals.numar_imagini_aleator %>
+);
