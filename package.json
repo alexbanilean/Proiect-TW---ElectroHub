@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
     "televizoare"
   ],
   "author": "Alexandru Banilean",
-  "engines":{
-    "node" : "16.x"
+  "engines": {
+    "node": "16.x"
   },
   "license": "ISC",
   "bugs": {
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/alexbanilean/Proiect-TW---ElectroHub#readme",
   "dependencies": {
     "crypto": "^1.0.1",
-    "ejs": "^3.1.6",
+    "ejs": "^3.0.2",
     "express": "^4.17.3",
     "express-session": "^1.17.2",
     "formidable": "^2.0.1",
