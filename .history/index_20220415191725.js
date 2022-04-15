@@ -33,7 +33,7 @@ client.connect();
 const obGlobal={obImagini:null, obErori:null};
 var obImaginiGalerieAnimata = new Array, numar_imagini_aleator = 0;
 
-app = express();
+app= express();
 
 app.set("view engine", "ejs");
 
@@ -250,7 +250,7 @@ function numarImaginiAleator(){
 numarImaginiAleator();
 
 var s_port = process.env.PORT || 8080;
-server.listen(s_port);
+ser.listen(s_port);
 
 // app.listen(8080);
 console.log("A pornit!");

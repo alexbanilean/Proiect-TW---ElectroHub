@@ -33,7 +33,7 @@ client.connect();
 const obGlobal={obImagini:null, obErori:null};
 var obImaginiGalerieAnimata = new Array, numar_imagini_aleator = 0;
 
-app = express();
+app= express();
 
 app.set("view engine", "ejs");
 
