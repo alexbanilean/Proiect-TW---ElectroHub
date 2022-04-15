@@ -5,7 +5,7 @@
 -- Dumped from database version 14.2
 -- Dumped by pg_dump version 14.2
 
--- Started on 2022-04-14 09:47:01
+-- Started on 2022-04-15 19:47:12
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -434,7 +434,7 @@ GRANT ALL ON TABLE public.tabel_test TO alex_test;
 GRANT ALL ON SEQUENCE public.tabel_test_id_seq TO alex_test;
 
 
--- Completed on 2022-04-14 09:47:01
+-- Completed on 2022-04-15 19:47:12
 
 --
 -- PostgreSQL database dump complete
