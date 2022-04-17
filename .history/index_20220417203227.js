@@ -11,11 +11,11 @@ const session = require("express-session");
 
 const {SourceMap} = require("module");
 
-// const { password, database } = require("pg/lib/defaults");
+const { password, database } = require("pg/lib/defaults");
 
 // var client = new Client({user:"alex_test", password: "alex_test", database: "BD_ElectroHub", host: "localhost", port: 5432});
 
-const { redirect, sendFile } = require("express/lib/response");
+// const { redirect, sendFile } = require("express/lib/response");
 
 var client = new Client({
     user:"qshknnjtswnyih", 

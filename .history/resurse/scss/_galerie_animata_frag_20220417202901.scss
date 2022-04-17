@@ -1,7 +1,7 @@
 @use "sass:math";
 $transformare_i: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100% 0, 100% 0, 100% 0, 0 100%) !default;
 $transformare_f: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 0, 0 0, 0 0) !default;
-$imagine-border: url(../resurse/imagini/green_border.jpg) 10% round;
+$imagine-border: url(../resurse/imagini/green_border.jpg) 20% round;
 $numar_imagini_aleator: 10 !default;
 
 #sectiune-galerie-animata{

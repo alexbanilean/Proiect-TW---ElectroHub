@@ -1,7 +1,7 @@
 @use "sass:math";
 $transformare_i: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100% 0, 100% 0, 100% 0, 0 100%) !default;
 $transformare_f: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 0, 0 0, 0 0) !default;
-$imagine-border: url(../resurse/imagini/green_border.jpg) 10% round;
+$imagine-border: url(../resurse/imagini/green_border.jpg) 30% round;
 $numar_imagini_aleator: 10 !default;
 
 #sectiune-galerie-animata{
@@ -11,10 +11,10 @@ $numar_imagini_aleator: 10 !default;
 .galerie-a{
 	width:500px;
 	height:520px;
-	border-style: solid;
+	border-style: solid ;
 	border-image: $imagine-border;
-	position: relative;
-	margin-bottom: 1rem;
+	position:relative;
+	margin-bottom:1rem;
 	margin-left: 25%;
 	margin-right: 25%;
 }

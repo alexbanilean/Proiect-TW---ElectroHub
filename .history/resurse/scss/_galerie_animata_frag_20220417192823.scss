@@ -1,7 +1,7 @@
 @use "sass:math";
-$transformare_i: polygon(0 0, 100% 0, 100% 100%, 0 100%, 100% 0, 100% 0, 100% 0, 0 100%) !default;
-$transformare_f: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 0, 0 0, 0 0) !default;
-$imagine-border: url(../resurse/imagini/green_border.jpg) 10% round;
+$transformare_i: polygon(100% 0, 0% 100%, 100% 100%) !default;
+$transformare_f: polygon(100% 100%, 100% 100%, 100% 100%) !default;
+$imagine-border: url(../resurse/imagini/hexagon_border.png) 30% round;
 $numar_imagini_aleator: 10 !default;
 
 #sectiune-galerie-animata{
@@ -13,8 +13,8 @@ $numar_imagini_aleator: 10 !default;
 	height:520px;
 	border-style: solid;
 	border-image: $imagine-border;
-	position: relative;
-	margin-bottom: 1rem;
+	position:relative;
+	margin-bottom:1rem;
 	margin-left: 25%;
 	margin-right: 25%;
 }
@@ -65,15 +65,15 @@ x%........3s
 
 @keyframes diagonale{ 
 	0% {z-index:10;} /*perioada 0-5% in care se afiseaza fara efect */
-	#{math.div(math.div(100, $numar_imagini_aleator), 2)}% {clip-path: $transformare_i;} /*transformare inceput disparitie*/
-	#{math.div(100, $numar_imagini_aleator)}% {z-index:10;clip-path: $transformare_f;}
-	#{math.div(100, $numar_imagini_aleator) + 0.0001}% {z-index:-10; clip-path: $transformare_i;}/* il ascund cat mai in spate sa nu vina peste imaginile care erau mai sus in html decat el*/
+	#{math.div(math.div(100, $numar_imagini_aleator), 2)}% {clip-path:$transformare_i;} /*transformare inceput disparitie*/
+	#{math.div(100, $numar_imagini_aleator)}% {z-index:10;clip-path:$transformare_f;}
+	#{math.div(100, $numar_imagini_aleator) + 0.0001}% {z-index:-10; clip-path:$transformare_i;}/* il ascund cat mai in spate sa nu vina peste imaginile care erau mai sus in html decat el*/
 	// 7.142857% {clip-path:$transformare_i2;} 
 	// 14.285714%{z-index:10;clip-path:$transformare_f2;}
-	// 14.285715%{z-index:-10; clip-path:$transformare_i2;}
+	// // 14.285715%{z-index:-10; clip-path:$transformare_i2;}
 
-	#{100 - math.div(100, $numar_imagini_aleator)}% {z-index:-10;clip-path: $transformare_i;}
-	// 85.714287%{z-index:-10;opacity:0;clip-path:$transformare_i2;}	
+	#{100 - math.div(100, $numar_imagini_aleator)}% {z-index:-10;clip-path: clip-path:$transformare_i;}
+	// // 85.714287%{z-index:-10;opacity:0;clip-path:$transformare_i2;}	
 	#{100- math.div(100, $numar_imagini_aleator) + 0.0001}% {z-index:0;}/*setez z-index la 0 ca sa revina la ordinea normala de afisare*/
 	100% {z-index:0;}
 
