@@ -41,8 +41,7 @@ client.connect();
 
 const obGlobal = {
     obImagini:null, 
-    obErori:null,
-    emailServer: "clienti.electrohub@gmail.com"
+    obErori:null
 };
 
 var obImaginiGalerieAnimata = new Array, numar_imagini_aleator = 0;
@@ -181,7 +180,6 @@ app.post("/inreg", function(req, res){
                         }
                         else{
                             res.render("pagini/inregistrare", {raspuns: "Datele au fost introduse."});
-                            trimiteMail(campuriText.email, "Te-ai inregistrat!", "Text", "<h1>Salut!</h1><p style='color:blue'>Username-ul tau este ${username}.</p>");
                         }
                     })   
                 }
@@ -199,20 +197,20 @@ async function trimiteMail(email, subiect, mesajText, mesajHtml, atasamente = []
         secure: false,
         auth:{
             //date login             
-            user: obGlobal.emailServer,
-            pass: "gmnmeimjrbovqroi"
+            user:obGlobal.emailServer,
+            pass:"rwgmgkldxnarxrgu"
          },
         tls:{
-            rejectUnauthorized: false
+            rejectUnauthorized:false
         }
     });
 
     //genereaza html   
     await transp.sendMail({
-        from: obGlobal.emailServer,
-        to: email,
+        from:obGlobal.emailServer,
+        to:email,
         subject: subiect, //"Te-ai inregistrat cu succes",       
-        text: mesajText, //"Username-ul tau este "+username      
+        text:mesajText, //"Username-ul tau este "+username      
         html: mesajHtml, // `<h1>Salut!</h1><p style='color:blue'>Username-ul tau este ${username}.</p> <p><a href='http://${numeDomeniu}/cod/${username}/${token}'>Click aici pentru confirmare</a></p>`,
         attachments: atasamente
     })

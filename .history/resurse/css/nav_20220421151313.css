@@ -20,8 +20,9 @@ nav{
 
 nav ul.meniu>li{
     float: left;
-    width: 14.28%;
+    width: 16.28%;
     position: relative;
+    
 }
 
 nav ul, nav li{

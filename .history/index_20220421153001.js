@@ -181,7 +181,7 @@ app.post("/inreg", function(req, res){
                         }
                         else{
                             res.render("pagini/inregistrare", {raspuns: "Datele au fost introduse."});
-                            trimiteMail(campuriText.email, "Te-ai inregistrat!", "Text", "<h1>Salut!</h1><p style='color:blue'>Username-ul tau este ${username}.</p>");
+                            trimiteMail(campuriText.email, "Te-ai inregistrat!", "Text", "<h1>Salut!</h1><p style='color:blue'>Username-ul tau este ${username}.</p>")
                         }
                     })   
                 }
