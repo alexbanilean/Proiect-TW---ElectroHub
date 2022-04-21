@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  lang="ro">
+    <head>
+        <meta name="description" content="Universul electronicelor și electrocasnicelor la cele mai bune prețuri.">
+        <meta name="keywords" content="electronice, electrocasnice, telefoane, tablete, jocuri, televizoare, smartphone">
+        <title>ElectroHub</title>
+        <%- include("../fragmente/head") %>     
+    </head>
+    <body>
+
+        <%- include("../fragmente/header") %>
+
+        <main>
+            <div class="afisaj">
+                <h2>Inregistrare utilizator</h2>
+                
+                <% if(!locals.raspuns) %>
+                    include("../fragmente/formular", {action: "/inreg"})
+                <% } %>
+            
+                <% if(locals.raspuns) { %>
+                    <%- locals.raspuns+"<br/>"%>
+                <% } %>
+
+                <% if(locals.err) { %>
+                    <%- locals.err %>
+                <% } %>
+            
+            </div>
+        </main>
+
+        <footer>
+            <%- include("../fragmente/footer") %>
+        </footer>
+    </body>
+</html>
