@@ -62,7 +62,7 @@
                         <p class="categorie">Categorie: <span class="val-categorie"><%- prod.categorie %></span></p>
                         
                         <div class="grid-intern">
-                            <figure class="imag-produs">
+                            <figure>
                                 <a href="produs/<%-prod.id %>" ><img src="/resurse/imagini/produse/<%- prod.imagine %>" alt="[imagine <%- prod.nume %>]" /></a>
                             </figure>
 
@@ -73,7 +73,7 @@
                                             <span class="pret">Pret:</span>
                                         </td>
                                         <td>
-                                            <span class="val-pret"><%- prod.pret %> RON</span>
+                                            <span class="val-pret"><%- prod.pret %></span>
                                         </td>
                                     </tr>
 
@@ -97,7 +97,7 @@
 
                                     <tr>
                                         <td>
-                                            <span class="data_adaugare">Data adăugare:</span>
+                                            <span class="data_adaugare">Data adaugare:</span>
                                         </td>
                                         <td>
                                             <span class="val-data_adaugare"><time><%- `${prod.data_adaugare.getDate()}/${locals.luni[prod.data_adaugare.getMonth()]}/${prod.data_adaugare.getFullYear()} (${locals.zile[prod.data_adaugare.getDay()]})` %></time></span>

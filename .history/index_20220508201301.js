@@ -33,7 +33,7 @@ const obGlobal = {
 luni = ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", 
         "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"];
 
-zile = ["Luni", "Marți", "Miercuri", "Joi", "Vineri", "Sâmbătă", "Duminică"];
+zile = ["Luni", "Marți", "Miercuri", "Joi", "Vineri", "Sâmbătă", "Duminica"];
 
 v_intervale = [[48, 57], [65, 90], [97, 122]];
 
@@ -219,7 +219,7 @@ app.get("/produs/:id", function(req, res){
     client.query(`select * from produse where id=${req.params.id}`, function(err, rezQuery){
         // console.log(rezQuery);
         if(!err)
-            res.render("pagini/produs", {prod: rezQuery.rows[0], luni: luni, zile: zile});
+            res.render("pagini/produs", {prod: rezQuery.rows[0]});
     });
 })
 

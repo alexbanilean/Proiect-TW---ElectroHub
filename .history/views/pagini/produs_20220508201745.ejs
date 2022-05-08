@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html  lang="ro">
+    <head>
+        <meta name="description" content="Universul electronicelor și electrocasnicelor la cele mai bune prețuri.">
+        <meta name="keywords" content="electronice, electrocasnice, telefoane, tablete, jocuri, televizoare, smartphone">
+        <title>ElectroHub</title>
+        <%- include("../fragmente/head"); %> 
+        <link rel="stylesheet" type="text/css" href="/resurse/css/produs.css"/>
+        <script type="text/javascript" src="/resurse/js/produse.js"></script>
+    </head>
+    <body>
+    <%- include("../fragmente/header") %>
+
+    <main>
+        <section>
+                <article id="art-produs">
+                    <h3><span class="nume"><%- locals.prod.nume %></span></h3>
+                    <p>Categorie: <span class="categorie"><%- locals.prod.categorie %> </span></p>
+
+                    <figure class="imag-produs">
+                        <img src="/resurse/imagini/produse/<%- locals.prod.imagine %>" alt="[imagine <%- locals.prod.nume %>]" />
+                    </figure>    
+
+                    <p>Pret: <span class="pret"><%- locals.prod.pret %></span></p>
+                    <p>Descriere: <span class="descriere"><%- locals.prod.descriere %></span></p>
+                    <p>Greutate: <span class="greutate"><%- locals.prod.ingrediente %></span></p>
+                    <p>Data adăugare: <span class="categorie"><%- locals.prod.data_adaugare %></span></p>
+
+                    <p>Garanție: <span class="garantie"><%- locals.prod.garantie %></span></p>
+                    <p>Culoare: <span class="culoare"><%- locals.prod.culoare %></span></p>
+                    <p>Tip produs: <span class="tip-produs"><%- locals.prod.tip_produs %></span></p>
+                    <p>Premium: <span class="val-premium">
+                        <% if(prod.premium == 'true') { %>
+                            <%- 'Da' %>
+                        <% } else { %>
+                            <%- 'Nu' %>
+                        <% } %>
+                    </span></p>
+
+                    <p>Specificații: <span class="specificatii">
+                        <% for(let spec of locals.prod.specificatii) { %>
+                            
+                        <% } %>
+                    </span></p>
+                    
+                </article>
+            
+        </section>
+    </main>
+
+    <%- include("../fragmente/footer") %>
+    </body>
+</html>
