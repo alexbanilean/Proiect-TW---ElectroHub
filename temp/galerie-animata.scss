@@ -1,8 +1,8 @@
 @use '../resurse/scss/_galerie_animata_frag' with (
-  $numar_imagini_aleator: 9
+  $numar_imagini_aleator: 6
 );
 
-$nrimag: 9;
+$nrimag: 6;
 
 @for $i from 0 through $nrimag{
     #galerie-animata figure:nth-of-type(#{$nrimag - $i}){
