@@ -1,0 +1,97 @@
+{
+    "cale_galerie":"resurse/imagini/galerie",
+	"imagini": [
+		{
+			"cale_imagine":"frigider.png",
+			"titlu":"Frigider",
+			"descriere":"Acesta este un frigider.",
+			"sfert_ora":1,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"monitor.png",
+			"titlu":"Monitor",
+			"descriere":"Acesta este un monitor.",
+			"sfert_ora":2,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"aer-conditionat.png",
+			"titlu":"Aer conditionat",
+			"descriere":"Aceasta este o unitate aer condiționat.",
+			"sfert_ora":3,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"aragaz.png",
+			"titlu":"Aragaz",
+			"descriere":"Acesta este un aragaz.",
+			"sfert_ora":4,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"cuptor-microunde.png",
+			"titlu":"Cuptor microunde",
+			"descriere":"Acesta este un cuptor cu microunde.",
+			"sfert_ora":1,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"aspirator.png",
+			"titlu":"Aspirator",
+			"descriere":"Acesta este un aspirator.",
+			"sfert_ora":2,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"cuptor-electric.png",
+			"titlu":"Cuptor electric",
+			"descriere":"Acesta este un cuptor electric.",
+			"sfert_ora":3,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"hota.png",
+			"titlu":"Hota",
+			"descriere":"Aceasta este o hotă.",
+			"sfert_ora":4,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"fier-calcat.png",
+			"titlu":"Fier de calcat",
+			"descriere":"Acesta este un fier de călcat.",
+			"sfert_ora":1,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"masina-spalat.png",
+			"titlu":"Masina de spalat",
+			"descriere":"Aceasta este o mașina de spălat.",
+			"sfert_ora":2,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"lampa.png",
+			"titlu":"Lampa",
+			"descriere":"Aceasta este o lampa.",
+			"sfert_ora":3,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"radiator.png",
+			"titlu":"Radiator",
+			"descriere":"Acesta este un radiator.",
+			"sfert_ora":4,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		},
+		{
+			"cale_imagine":"sistem-audio.png",
+			"titlu":"Sistem audio",
+			"descriere":"Acesta este un sistem audio.",
+			"sfert_ora":1,
+			"sursa": "https://www.freepik.com/free-vector/household-appliances-isometric-set_4385763.htm#page=2&query=macrovector%20appliances&position=9&from_view=search"
+		}
+		
+	]
+}

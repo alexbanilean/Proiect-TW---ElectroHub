@@ -1,0 +1,13 @@
+
+
+main{
+    color:var(--c1-text);
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    overflow: hidden;
+}

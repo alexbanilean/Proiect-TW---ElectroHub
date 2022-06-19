@@ -1,5 +1,0 @@
-#galerie_statica{
-    display: grid;
-    grid-template-: repeat(9, 1fr);
-    grid-template-areas: ;
-}
