@@ -482,18 +482,20 @@ async function trimiteMail(email, subiect, mesajText, mesajHtml, atasamente = []
 }
 
 app.get("/cod/:username/:token", function(req, res){
-    var current_date = new Date().getMinutes();
+    let current_date = new Date();
     let comandaGetData = `select data_adaugare from utilizatori where username = $1`;
-    var user_date = 0;
+    let user_date = null;
 
     client.query(comandaGetData, [req.params.username], function(err, rezData){
-        if(!err)
-            user_date = rezData.rows[0].data_adaugare.getMinutes();
-        console.log("err");
-    });
+        if(err)
+            console.log("err");
+        else
+            user_date = rezData;
+    })
 
+    console.log()
 
-    if(current_date - user_date <= 10){
+    if(current_date - user_date <= 10 * 60 * 1000){
         var comandaUpdate = `update utilizatori set confirmat_mail = true where username = $1 and cod = $2`;
         client.query(comandaUpdate, [req.params.username, req.params.token], function(err, rezUpdate){
             if(err){
@@ -513,7 +515,7 @@ app.get("/cod/:username/:token", function(req, res){
     else{
         randeazaEroare(res, -1, "Timpul de confirmare a expirat", "Reinregistrare!");
     }
-});
+})
 
 app.post("/login", function(req, res){
     var formular = new formidable.IncomingForm();

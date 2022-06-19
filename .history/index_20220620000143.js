@@ -489,7 +489,7 @@ app.get("/cod/:username/:token", function(req, res){
     client.query(comandaGetData, [req.params.username], function(err, rezData){
         if(!err)
             user_date = rezData.rows[0].data_adaugare.getMinutes();
-        console.log("err");
+        console.log("e"
     });
 
 
@@ -513,7 +513,7 @@ app.get("/cod/:username/:token", function(req, res){
     else{
         randeazaEroare(res, -1, "Timpul de confirmare a expirat", "Reinregistrare!");
     }
-});
+})
 
 app.post("/login", function(req, res){
     var formular = new formidable.IncomingForm();

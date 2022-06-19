@@ -489,9 +489,12 @@ app.get("/cod/:username/:token", function(req, res){
     client.query(comandaGetData, [req.params.username], function(err, rezData){
         if(!err)
             user_date = rezData.rows[0].data_adaugare.getMinutes();
-        console.log("err");
+        console.log("QR", rezData.rows[0].data_adaugare.getMinutes());
     });
 
+    console.log(current_date);
+    console.log(user_date);
+    console.log(current_date - user_date);
 
     if(current_date - user_date <= 10){
         var comandaUpdate = `update utilizatori set confirmat_mail = true where username = $1 and cod = $2`;
@@ -513,7 +516,7 @@ app.get("/cod/:username/:token", function(req, res){
     else{
         randeazaEroare(res, -1, "Timpul de confirmare a expirat", "Reinregistrare!");
     }
-});
+})
 
 app.post("/login", function(req, res){
     var formular = new formidable.IncomingForm();

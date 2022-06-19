@@ -479,7 +479,7 @@ async function trimiteMail(email, subiect, mesajText, mesajHtml, atasamente = []
     })
     
     console.log("trimis mail");
-}
+};
 
 app.get("/cod/:username/:token", function(req, res){
     var current_date = new Date().getMinutes();
