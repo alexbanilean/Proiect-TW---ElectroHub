@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/alexbanilean/Proiect-TW---ElectroHub#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "crypto": "^1.0.1",
     "ejs": "^3.0.2",
     "express": "^4.17.3",
@@ -43,6 +44,7 @@
     "qrcode": "^1.5.0",
     "sass": "^1.49.9",
     "session": "^0.1.0",
-    "sharp": "^0.30.3"
+    "sharp": "^0.30.3",
+    "socket.io": "^4.5.1"
   }
 }
